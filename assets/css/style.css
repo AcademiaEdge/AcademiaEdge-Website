@@ -573,6 +573,12 @@ content: "";
   background-color: rgba(97, 190, 252, 0.164);
   height: 45px;
 }
+
+.archivedheader {
+  background-color: rgba(7, 255, 168, 0.164);
+  height: 45px;
+}
+
 .backelement {
   font-size: 16px;
   color: #3366cc;
@@ -2214,6 +2220,10 @@ Courses--------------
   display: flex;
   flex-wrap: wrap;
 }
+.coursegridarchived {
+  display: flex;
+  flex-wrap: wrap;
+}
 .coursegridsciovirtual{
   display: flex;
   flex-wrap: wrap;
@@ -2227,6 +2237,13 @@ Courses--------------
   margin-top: 2%;
   padding-left:2%;
   display:none;
+  width:33.33333333333333333333333%;
+}
+.coursegridarchiveditem {
+  margin-bottom:10px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding-left:2%;
   width:33.33333333333333333333333%;
 }
 .coursegridsciovirtualitem {
