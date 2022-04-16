@@ -4,11 +4,6 @@
 * Author of template: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
-/*--------------------------------------------------------------
-# General
-# Most recent CSS changes for the Archives section were made by the EMUkhoAcademiaEdge account and not the EamonMukhopadhyayGH account, which does not exist anymore.
---------------------------------------------------------------*/
 @charset "UTF-8";
 body, html {
   font-family: "Open Sans", sans-serif !important;
@@ -965,8 +960,27 @@ body, html {
   bottom: 0;
   background:  #3366cccb;
 }
+/*for sponsors.html*/
+.bg-imagesponsors{
+  padding: 180px 0;
+  background: url("/assets/img/sponsorsbanner.jpg") no-repeat;
+  height: 45%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-imagesponsors::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:  #3366cccb;
+}
 .formatbutton {
-  transform: translate(-50%, -50%;);
+  transform: translate(-50%, -50%);
   text-align:center;
   left:50%;
 }
